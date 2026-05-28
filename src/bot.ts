@@ -30,7 +30,7 @@ function leaderboardText(
   month: number,
   year: number
 ): string {
-  const title = `Intern Meal Credits Leaderboard - ${formatMonthYear(month, year)}`;
+  const title = `HMGICS Meal Credits Leaderboard - ${formatMonthYear(month, year)}`;
   if (rows.length === 0) {
     return `${title}\n\nNo submissions yet. Upload your wallet screenshot with /submit to join the race.`;
   }
@@ -91,10 +91,11 @@ export function createBot() {
 
   bot.command("start", async (ctx) => {
     await ctx.reply(
-      "Hey! I am the Intern Meal Credits Leaderboard bot.\n\n" +
+      "Hey! I am the HMGICS Meal Credits Leaderboard bot.\n\n" +
         "Upload your meal wallet screenshot each month and I will track your latest remaining balance.\n" +
         "For privacy, please crop out your payment QR code before uploading.\n" +
-        "Lowest remaining balance wins at month-end.\n\n" +
+        "Lowest remaining balance wins at month-end.\n" +
+        "Open to all HMGICS employees.\n\n" +
         "Commands:\n" +
         "/submit - submit a screenshot\n" +
         "/leaderboard - current month ranking\n" +

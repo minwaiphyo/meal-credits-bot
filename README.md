@@ -1,7 +1,7 @@
-# Intern Meal Credits Leaderboard Bot
+# HMGICS Meal Credits Leaderboard Bot
 
-A Telegram bot for HMGICS interns to run a monthly challenge:
-the winner is the intern with the **lowest remaining meal credits** at month-end.
+A Telegram bot for all HMGICS employees to run a monthly challenge:
+the winner is the employee with the **lowest remaining meal credits** at month-end.
 
 ## Tech Stack
 
